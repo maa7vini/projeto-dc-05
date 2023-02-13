@@ -25,9 +25,13 @@ nav {
     margin: 0px 15px;
 }
 
+.nav-links a:hover {
+    color: rgb(207, 22, 22);
+}
+
 header {
     background-image: url(imagens/bg.jpg);
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-size: cover;
     background-position: center;
