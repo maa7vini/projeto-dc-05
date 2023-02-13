@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin: 0px 15px;
+}
+
+header {
+    background-image: url(imagens/bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-txt {
+    margin: 0px 150px;
+}
+
+.header-txt h1 {
+    font-size: 4em;
+    color: whitesmoke;
+    margin: 10px 0px;
+}
+
+.consultoria {
+    background-color: brown;
+    width: 400px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(245, 245, 245, 0.288);
+    text-shadow: 1px 1px 1px black;
+}
+
+.compra {
+    background-color: brown;
+    width: 300px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(245, 245, 245, 0.288);
+    text-shadow: 1px 1px 1px black;
+}
+
+.venda {
+    background-color: brown;
+    width: 250px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(245, 245, 245, 0.288);
+    text-shadow: 1px 1px 1px black;
+}
